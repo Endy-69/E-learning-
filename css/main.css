@@ -1,0 +1,178 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.homepage {
+    background-image: url("../assets/image/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: skyblue;
+}
+
+.call {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 22px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom-color: white;
+}
+
+.divider {
+    padding-left: 10px;
+    padding-right: 10px;
+    /* font-size: 18px; */
+}
+
+
+/*about the nav bar height and width*/
+
+.navbar {
+    min-height: 60px;
+    border-top-color: white;
+}
+
+.navbar-toggler {
+    padding: 3px 5px !important;
+    background-color: white;
+}
+
+.icon-bar {
+    color: rgb(175, 32, 99);
+    background-color: black;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+@media (min-width: 888px) {
+    .navbar-nav>li>a {
+        padding-top: 10.5px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/*about the color of navbar*/
+
+.navbar-default {
+    background-color: rgb(110, 8, 47);
+    ;
+    font-family: monospace;
+    font-size: large;
+}
+
+.fixed-top {
+    box-shadow: 0 5px 3px rgb(137, 21, 65);
+    border-top: 5px white;
+    transform: translateZ(2px);
+    /* transform: translate(-15px);  */
+    transition: all 0.5s;
+    margin-top: -11px;
+    top: -15px;
+}
+
+.fixed-top .navbar-collapse .navbar-nav {
+    margin-top: 10px;
+    color: black;
+}
+
+.fixed-top .navbar-collapse .navbar-nav>li {
+    margin-top: 3px;
+    color: black;
+}
+
+.navbar-brand {
+    margin-left: -20px !important;
+}
+
+.fixed-top .navbar-brand>img {
+    margin-top: 18px;
+}
+
+@media (min-width: 300px) {
+    .navbar-brand {
+        margin-left: -5px !important;
+    }
+}
+
+.navbar-brand>img {
+    width: 90%;
+    height: 100;
+    margin: -6px;
+}
+
+.navbar-default {
+    color: #d7e2e9;
+    padding: 10px;
+    /* height: 80px; */
+}
+
+.navbar-default .navbar-text {
+    color: bisque;
+}
+
+.navbar-default .navbar-nav>li {
+    border-radius: 3px;
+    border-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    background-color: transparent;
+    padding: 15px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: rgb(137, 21, 65);
+    font-family: monospace;
+    box-shadow: 2px 2px 4px #d6134e;
+    padding: 15px;
+}
+
+
+/* dropdown */
+
+.dropdown-menu {
+    background-color: #df1753;
+    /* color: white; */
+}
+
+.dropdown-menu .dropdown-menu-right {
+    background-color: #df1753;
+    color: black;
+}
+
+.dropdown-item:hover {
+    padding: 13px;
+    font-family: monospace;
+    color: rgb(16, 43, 165);
+    background-color: #54a8a8;
+    box-shadow: 0 10px 2px #223838;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgb(236, 33, 101);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.footer {
+    padding-bottom: 10px;
+    margin: 10px;
+    background-color: rgb(180, 196, 196);
+}
+
+.login_form {
+    box-shadow: 0 2px 3px;
+}
+
+.login_form:hover {
+    box-shadow: 0 2px 3px rgb(248, 69, 108);
+}

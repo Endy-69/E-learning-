@@ -1,0 +1,85 @@
+*{ margin: 0; padding: 0; }
+#login{
+	position: fixed;
+	float: left;
+	margin-left: 1120px;
+	background: url('signin.png') no-repeat;
+	width: 80px;
+	height: 28px;
+	cursor: default;
+	opacity: .8;
+	-moz-transition:.7s;
+    -webkit-transition:.7s;
+    -o-transition:.7s;
+    transition:.7s;
+	margin-top: 82px;
+}
+#login:hover{
+	opacity: 1;
+}
+#login:hover #sublogin{
+	opacity: 1;
+	visibility: visible;
+	opacity: .7;
+	-moz-transition:.7s;
+    -webkit-transition:.7s;
+    -o-transition:.7s;
+    transition:.7s;	
+	height: 295px;
+}
+#sublogin{
+	float: left;
+	margin-top:-25px;
+	margin-left:76px;
+	border-radius: 10px;
+	border: inset 2px red;
+	padding: 10px;
+	width:160px;
+	height: 30px;
+	overflow: hidden;
+	opacity: 0;
+	visibility: hidden;
+	background-color:magenta
+;
+	-moz-transition:.7s;
+    -webkit-transition:.7s;
+    -o-transition:.7s;
+    transition: .7s;
+}
+.textbox{
+	padding: 8px;
+	outline:none;
+	border-radius: 5px;
+	width: 145px;
+	font-size:16px;
+	
+}
+.submit{
+	padding: 4px;
+	border-radius: 5px;
+	outline:none;
+	background-color:#3892c7;	
+	text-align: center;
+	width: 145px;
+	margin-bottom:8px;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #FFF;
+}
+.submit:hover{
+	color: #000;
+}
+.loginLink{
+	font-size: 19px;
+	color: black;
+	text-decoration: none;
+	
+}
+.loginLink:hover{
+	font-size: 15px;
+	color:#000;
+	text-decoration: underline;
+}
+a{
+	text-decoration: none;
+}

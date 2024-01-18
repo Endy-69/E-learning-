@@ -1,0 +1,150 @@
+.mhRotator {
+	position:absolute;
+	left: 310px;
+	top: 210px;
+	display:block;
+	margin:0 auto;
+}
+.mhRotator img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.slideContainer {
+	position:absolute;
+	top:2px;
+	left:0px;
+	z-index:100;
+	overflow:hidden;
+	border-radius: 20px
+}
+.slide {
+	display:block;
+	position:absolute;
+	z-index:200;
+	height:100%;
+}
+.slice {
+	display:block;
+	position:absolute;
+	z-index:200;
+	height:100%;
+}
+.mhCaptionBar {
+	position:absolute;
+	left:0px;
+	width:100%;
+	z-index:400;
+	overflow:hidden;
+}
+.mhCaption {
+	margin:0 auto;
+}
+.mhCaption a {
+	display:inline !important;
+}
+.navButtons {
+	position:absolute;
+	display:block;
+	width:100%;
+	height:32px;
+	z-index:300;
+}
+
+.navButton {
+	position:absolute;
+	display:block;
+	cursor:pointer;
+	width:32px;
+	height:32px;
+	background:url(roundbutton.png) no-repeat;
+	text-align:center;
+}
+.navButtonText {
+	opacity:0.7;
+	filter:alpha(opacity=0.7);
+	margin-top:6px;
+	color:#333333;
+	font-size:16px;
+	font-family:Arial;
+	font-weight:bold;
+}
+.navBar {
+	position:absolute;
+	height:20px;
+	width:100%;
+	left:0;
+	z-index:500;
+	display:block;
+}
+.navControls {
+	margin:auto;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+}
+.shadowT {
+	position:absolute;
+	left: 0;
+	top: -20px;
+	width: 100%;
+	height: 20px;
+	background: url(shadowt.png) repeat-x;
+}
+.shadowTR {
+	position:absolute;
+	right: -20px;
+	top: -20px;
+	width: 20px;
+	height: 20px;
+	background: url(shadowtr.png) no-repeat;
+}
+.shadowR {
+	position:absolute;
+	right: -20px;
+	top: 0;
+	width: 20px;
+	height: 100%;
+	background: url(shadowr.png) repeat-y;
+}
+.shadowBR {
+	position:absolute;
+	right: -20px;
+	bottom: -20px;
+	width: 20px;
+	height: 20px;
+	background: url(shadowbr.png) no-repeat;
+}
+.shadowB {
+	position:absolute;
+	left: 0;
+	bottom: -20px;
+	width: 100%;
+	height: 20px;
+	background: url(shadowb.png) repeat-x;
+}
+.shadowBL {
+	position:absolute;
+	left: -20px;
+	bottom: -20px;
+	width: 20px;
+	height: 20px;
+	background: url(shadowbl.png) no-repeat;
+}
+.shadowL {
+	position:absolute;
+	left: -20px;
+	top: 0;
+	width: 20px;
+	height: 100%;
+	background: url(shadowl.png) repeat-y;
+}
+.shadowTL {
+	position:absolute;
+	left: -20px;
+	top: -20px;
+	width: 20px;
+	height: 20px;
+	background: url(shadowtl.png) no-repeat;
+}
